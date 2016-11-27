@@ -26,6 +26,35 @@ def process(layer)
     }]
   }
   File.write("style/#{id}.json", JSON::dump(style))
+  File.open("gljs/#{id}.html", 'w') {|w|
+    w.print <<-EOS
+<!doctype html>
+<html>
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.css' rel='stylesheet' />
+  <script src='https://api.mapbox.com/mapbox-gl-js/v0.28.0/mapbox-gl.js'></script>
+  <style>
+  html { height: 100%; }
+  body { margin:0; padding:0; height: 100%; }
+  #map { height: 100%; width:100%; }
+  </style>
+</head>
+<body>
+<div id='map' />
+<script>
+  var map = new mapboxgl.Map({
+    container: 'map', hash: true,
+    center: [139.77669, 35.68418],
+    zoom: 10, minzoom: 0, maxzoom: 17,
+    style: '../style/#{id}.json'
+  });
+</script>
+</body>
+</html>
+    EOS
+  }
 end
 
 def jump_into(entry)
