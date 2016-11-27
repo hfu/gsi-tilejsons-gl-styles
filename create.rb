@@ -11,7 +11,7 @@ def process(layer)
     :sources => {
       id => {
         :type => 'raster',
-        :tiles => [url],
+        :tiles => [url.sub('http:', 'https:')],
         :tileSize => 256,
         :minzoom => minzoom ? minzoom : 0,
         :maxzoom => maxzoom ? maxzoom : 18,
