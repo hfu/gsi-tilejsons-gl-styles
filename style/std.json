@@ -1,0 +1,1 @@
+{"version":8,"name":"標準地図","sources":{"std":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png"],"tileSize":256,"minzoom":0,"maxzoom":18,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"std","type":"raster","source":"std","paint":{"raster-fade-duration":100}}]}

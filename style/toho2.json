@@ -1,0 +1,1 @@
+{"version":8,"name":"2011年5月～2012年4月","sources":{"toho2":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/toho2/{z}/{x}/{y}.jpg"],"tileSize":256,"minzoom":5,"maxzoom":18,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"toho2","type":"raster","source":"toho2","paint":{"raster-fade-duration":100}}]}

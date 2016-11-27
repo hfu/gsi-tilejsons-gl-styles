@@ -1,0 +1,1 @@
+{"version":8,"name":"植生(樹木被覆率)","sources":{"ptc2":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/gmld_ptc2/{z}/{x}/{y}.png"],"tileSize":256,"minzoom":0,"maxzoom":7,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"ptc2","type":"raster","source":"ptc2","paint":{"raster-fade-duration":100}}]}

@@ -1,0 +1,1 @@
+{"version":8,"name":"都市圏活断層図","sources":{"afm":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/afm/{z}/{x}/{y}.png"],"tileSize":256,"minzoom":0,"maxzoom":16,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"afm","type":"raster","source":"afm","paint":{"raster-fade-duration":100}}]}

@@ -1,0 +1,1 @@
+{"version":8,"name":"色別標高図","sources":{"relief":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/relief/{z}/{x}/{y}.png"],"tileSize":256,"minzoom":0,"maxzoom":18,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"relief","type":"raster","source":"relief","paint":{"raster-fade-duration":100}}]}

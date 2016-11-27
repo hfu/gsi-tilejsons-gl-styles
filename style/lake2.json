@@ -1,0 +1,1 @@
+{"version":8,"name":"平成3年以降","sources":{"lake2":{"type":"raster","tiles":["http://cyberjapandata.gsi.go.jp/xyz/lake2/{z}/{x}/{y}.png"],"tileSize":256,"minzoom":0,"maxzoom":17,"attribution":"<a href='http://maps.gsi.go.jp/development/ichiran.html' target='_blank'>地理院タイル</a>"}},"layers":[{"id":"lake2","type":"raster","source":"lake2","paint":{"raster-fade-duration":100}}]}
