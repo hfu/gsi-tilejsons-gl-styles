@@ -8,6 +8,7 @@ def process(layer)
   style = {
     :version => 8,
     :name => name,
+    :glyphs => 'https://smellman.github.io/creating_tiles_with_global_map_support_files/2015/mapbox_vector_tile_demo/demosites/fonts/{fontstack}/{range}.pbf',
     :sources => {
       id => {
         :type => 'raster',
